@@ -210,7 +210,7 @@ body{
 }
 
 .card{
-    width: 255px;
+    width: 100%;
     height: 350px;
     box-shadow: 0 33px 50px rgb(86 179 249 / 20%);
     border: none;
@@ -437,10 +437,6 @@ body{
     border-top-right-radius: 50% 10%;
 }
 
-.section-7::before{
-    
-}
-
 .overlay{
     background: rgba(41, 41, 224, 0.5);
     width: 100%;
@@ -497,23 +493,24 @@ body{
     margin-top: 50px;
 }
 
-.footer-logo{
-    text-align: left;
-    
-}
-
 .footer-col{
     margin: 70px 0;
     width: 50%;
 }
 
+.footer-logo{
+    text-align: left;
+    width: 30%;
+    
+}
 .footer-col img{
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
 .footer-credits{
     text-align: right;
+    width: 70%;
 }
 
 
@@ -595,4 +592,135 @@ body{
         bottom: 14px;
     }
 
+    .home-col{
+        width: 100%;
+    }
+
+    .home-text{
+        margin: 200px 20px 80px;
+    }
+
+    .home-text p:nth-child(1){
+        font-size: 40px;
+    }
+
+    .home-text p:nth-child(2){
+        font-size: 40px;
+    }
+
+    .home-text p:nth-child(3){
+        font-size: 20px;
+    }
+
+    .home-btn{
+        margin: 20px 20px 200px;
+        font-size: 17px
+    }
+
+    .home-btn a{
+        padding: 15px 50px;
+    }
+
+    .section-2{
+        margin: 130px 20px;
+    }
+
+    .head-2 p:nth-child(2){
+        font-size: 35px;
+    }
+
+    .head-2 p:nth-child(3){
+        font-size: 20px;
+    }
+
+    .cards-col{
+        width: 100%;
+    }
+
+    .card{
+        margin: auto;
+    }
+
+    .section-3{
+        margin: 130px 20px;
+        text-align: center;
+    }
+
+    .payment-col{
+        width: 100%;
+    }
+
+    .payment-col h3{
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    .legacy-content{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .legacy-content h3{
+        font-size: 35px;
+    }
+
+    .legacy-content p{
+        font-size: 19px;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+
+    .legacy-content img{
+        width: 60%;
+    }
+
+    .section-5{
+        margin: 130px 20px;
+    }
+
+    .benefits-col{
+        width: 100%;
+    }
+
+    .benefits-col h3{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .benefits-col p{
+        font-size: 17px;
+    }
+
+    .benefits-col p:nth-child(3){
+        margin-bottom: 0;
+    }
+
+    .section-6{
+        margin: 130px 20px;
+    }
+
+
+    .reviews-head p:nth-child(2){
+        font-size: 35px;
+    }
+
+
+    .swiper-container{
+        padding: 10px;
+    }
+
+    #footer{
+        margin: 70px 20px 0;
+    }
+
+    .footer-form p{
+        padding: 70px 0;
+        font-size: 30px;
+    }
+
+    .footer-col{
+        width: 100%;
+        margin: 20px 0;
+    }
 }
