@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+/* navbar */
+
+.top-navbar{
+    position: fixed;
+    background: transparent;
+    padding-top: 60px;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: .3s linear;
+}
+
+.inner-width{   
+    margin: 0 80px;
+    padding: 0 40px;
+}
+
+.top-navbar .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 313px;
+}
+
+.menu-toggler-btn{
+    background: none;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    display: none;
+}
+
+.menu-toggler-btn span{
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    position: relative;
+    transition: .3s linear;
+}
+
+.navbar-menu a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+    transition: .2s linear;
+}
+
+.register-btn{
+    border: 2px solid #fff;
+    padding: 12px 17px;
+    border-radius: 999px;
+}
+
+.navbar-menu a:hover{
+    font-size: 18px;
+    transition: .3s;
+}
+
+.sticky{
+    background-color: #003de6;
+    padding: 30px 0;
+}
+
+/* home */
+
+.section-1{
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #471a91 0%, #56b3f9 100%);
+    border-bottom-right-radius: 50% 10%;
+    border-bottom-left-radius: 50% 10%;
+    
+}
+
+#home{
+    background-image: url("https://forcha.com.au/wp-content/themes/forcha/assets/img/banner-donator.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: #fff;
+    border-bottom-right-radius: 50% 10%;
+    border-bottom-left-radius: 50% 10%;
+}
+
+.row{
+    margin: 0;
+}
+
+.home-col{
+    width: 50%;
+}
+
+#home .home-content{
+    width: 100%;
+    height: 100%;
+}
+
+.home-text{
+    margin: 270px 0 20px 120px;
+    position: relative;
+    background: transparent;
+}
+
+.home-text p:nth-child(1){
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.home-text p:nth-child(2){
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    background: transparent;
+}
+
+.home-text p:nth-child(3){
+    position: relative;
+    font-size: 30px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.home-btn{
+    margin: 60px 120px 200px;
+    font-size: 30px
+}
+
+.home-btn a{
+    color: #fff;
+    background-color: #56b3f9;
+    font-weight: 700;
+    padding: 19px 75px;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.home-btn:hover a{
+    padding: 21px 77px;
+    transition: .3s;
+}
+
+.section-2{
+    margin: 100px;
+    text-align: center;
+}
+
+.head-2{
+    text-align: center;
+}
+
+.head-2 p:nth-child(1){
+    color: #56b3f9;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.head-2 p:nth-child(2){
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 700;
+    color: #471a91;
+}
+
+.head-2 p:nth-child(3){
+    color: #333333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.cards{
+    margin-top: 80px;
+}
+
+.cards-col{
+    width: 25%;
+    padding: 15px;
+}
+
+.card{
+    width: 255px;
+    height: 350px;
+    box-shadow: 0 33px 50px rgb(86 179 249 / 20%);
+    border: none;
+    outline: none;
+}
+
+
+.card-body{
+    padding:  40px 20px;
+}
+
+.card img{
+    width: auto;
+    height: 90px;
+}
+
+.card-content h5{
+    color: #471a91;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.card-content p{
+    margin-top: 30px;
+}
+
+.section-2-btn{
+    color: #fff;
+    margin-top: 100px;
+}
+
+.section-2-btn:hover a{
+    padding: 16px 32px;
+    transition: .3s;
+}
+
+.section-2-btn a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #56b3f9;
+    padding: 14px 30px;
+    border-radius: 100px;
+}
+
+.section-3{
+    margin: 150px 100px;
+}
+
+.payment-col{
+    width: 50%;
+    padding: 20px;
+}
+
+.payment-col h3{
+    color: #471a91;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 175px;
+    margin-bottom: 25px;
+}
+
+.payment-col p{
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 60px;
+}
+
+.payment-col a{
+    color: #56b3f9;
+    border: #56b3f9 2px solid;
+    padding: 16px 50px;
+    border-radius: 999px;
+    font-weight: 800;
+}
+
+.payment-col a:hover{
+    background-color: #56b3f9;
+    color: #fff;
+    padding: 18px 52px;
+    transition: .3s;
+}
+
+.payment-col img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-4{
+    
+    color: #fff;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legacy{
+    background-image: url("https://forcha.com.au/wp-content/themes/forcha/assets/img/img01.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.legacy-overlay{
+    background: rgba(35, 35, 212, 0.5)
+}
+
+.legacy-content{
+    width: 100%;
+    height: 100%;
+    padding: 60px 0 30px 0;
+    width: 60%;
+    margin: auto;
+}
+
+.legacy-content h3{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.legacy-content p{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.legacy-content img{
+    width: 300px;
+    height: auto;
+}
+
+.section-5{
+    margin: 100px;
+}
+
+.benefits-col{
+    width: 50%;
+    padding: 25px;
+}
+
+.benefits-col img{
+    width: 100%;    
+    height: 100%;
+}
+
+.benefits-col h3{
+    color: #471a91;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 100px 0 30px;
+}
+
+.section-6{
+    text-align: center;
+    margin: 100px;
+}
+
+.reviews-head p:nth-child(1){
+    color: #56b3f9;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.reviews-head p:nth-child(2){
+    color: #471a91;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+}
+
+.slider-content{
+    height: 100%;
+    margin: auto;
+}
+
+.slider-content strong{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.slider-content p{
+    color: #333;
+    font-weight: 400;
+    max-width: 550px;
+    margin: 25px auto;
+}
+
+.slider-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.slider-image h6{
+    color: #471a91;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.section-7{
+    color: #fff;
+    background-image: url("https://forcha.com.au/wp-content/themes/forcha/assets/img/footer-bg.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+.section-7::before{
+    
+}
+
+.overlay{
+    background: rgba(41, 41, 224, 0.5);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+#footer{
+    margin: 100px 100px 0;
+}
+
+.footer-form p{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 100px 250px 40px;
+}
+
+.footer-form input{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 710px;
+    height: 54px;
+    border-radius: 999px;
+    margin-bottom: 15px;
+    padding: 30px;
+    outline: none;
+    border: none;
+}
+
+.footer-btn{
+    margin: 50px;
+}
+
+.footer-btn a{
+    color: #fff;
+    background-color: #56b3f9;
+    padding: 15px 40px;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+.footer-btn:hover a{
+    padding: 17px 42px;
+    transition: .3s;
+}
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: #56b3f9;
+    margin-top: 50px;
+}
+
+.footer-logo{
+    text-align: left;
+    
+}
+
+.footer-col{
+    margin: 70px 0;
+    width: 50%;
+}
+
+.footer-col img{
+    width: 300px;
+    height: auto;
+}
+
+.footer-credits{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+
+    .inner-width{
+        margin: 0 20px;
+    }
+    
+    .menu-toggler-btn{
+        display: block;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .navbar-menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #6155a6;
+        top: 0;
+        left: 100%;
+        max-width: 400px;
+        padding: 80px 20px;
+        transition: .3s linear;
+        z-index: 998;
+    }
+
+    .sticky .navbar-menu{
+        background-color: #0391f0;
+    }
+
+    .register-btn{
+        border: none;
+        padding: 0;
+    }
+
+    .register-btn:hover{
+        background: none;
+        color: #fff;
+    }
+
+    .navbar-menu a{
+        display: block;
+        font-size: 23px;
+        margin: 30px 0;
+    }
+
+    .navbar-menu.active{
+        left: 20%;
+    }
+
+    .menu-toggler-btn.active span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 4px;
+    }
+
+    .menu-toggler-btn.active span:nth-child(2){
+        opacity: 0;
+    }
+
+    .menu-toggler-btn.active span:nth-child(3){
+        transform: rotate(45deg);
+        bottom: 14px;
+    }
+
+}
