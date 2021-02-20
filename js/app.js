@@ -16,16 +16,27 @@ jQuery(document).ready(function($) {
         $(".navbar-menu").toggleClass("active");
     });
 
-    $("#home").click()(function(){
-        $(".menu-toggler-btn").removeClass("active");
-        $(".navbar-menu").removeClass("active");
-    });
+    // $("#home").click()(function(){
+    //     $(".menu-toggler-btn").removeClass("active");
+    //     $(".navbar-menu").removeClass("active");
+    // });
 });
+
+$('.click').on('click', function(){
+    $('.menu-toggler-btn').removeClass('active');
+    $('.navbar-menu').removeClass('active');
+});
+
+$('.navbar-menu a').on('click', function(){
+    $('.menu-toggler-btn').removeClass('active');
+    $('.navbar-menu').removeClass('active');
+});
+
 
 var swiper = new Swiper('.swiper-container', {
     effect: 'flip',
     grabCursor: true,
-    loop:true,
+    loop: true,
     pagination: {
       el: '.swiper-pagination',
     },

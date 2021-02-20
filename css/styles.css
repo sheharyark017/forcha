@@ -537,16 +537,6 @@ body{
         display: block;
     }
 
-    .top-navbar .inner-width{
-        display: flex;
-        align-items: center;
-        justify-content: left;
-    }
-
-    .logo{
-        margin: auto;
-    }
-
     .logo img{
         width: 150px;
     }
@@ -554,18 +544,19 @@ body{
     .navbar-menu{
         position: fixed;
         height: 100vh;
-        width: 100%;
+        width: 70%;
         background-color: #6155a6;
         top: 0;
-        left: -100%;
-        padding: 90px 50px;
-        max-width: 400px;
+        right: -100%;
+        padding: 90px 20px;
         transition: .3s linear;
         z-index: 998;
+        box-shadow: 0 0 10px 6px #484079;
     }
 
     .sticky .navbar-menu{
         background-color: #0391f0;
+        box-shadow: 0 0 10px 6px #006ab1;
     }
 
     .register-btn{
@@ -580,12 +571,12 @@ body{
 
     .navbar-menu a{
         display: block;
-        font-size: 23px;
+        font-size: 20px;
         margin: 30px 0;
     }
 
     .navbar-menu.active{
-        left: 0;
+        right: 0;
     }
 
     .menu-toggler-btn.active span:nth-child(1){
